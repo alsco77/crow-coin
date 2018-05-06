@@ -1,0 +1,31 @@
+{
+  "name": "crow-coin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alex Scott",
+  "license": "ISC",
+  "dependencies": {
+    "zeppelin-solidity": "1.7.0"
+  },
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "ethereumjs-wallet": "^0.6.0",
+    "truffle-wallet-provider": "0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alsco77/crow-coin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alsco77/crow-coin/issues"
+  },
+  "homepage": "https://github.com/alsco77/crow-coin#readme"
+}
