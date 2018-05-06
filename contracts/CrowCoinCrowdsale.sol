@@ -13,4 +13,12 @@ contract CrowCoinCrowdsale is CappedCrowdsale, MintedCrowdsale {
         
     {
     }
+
+    function claimTokens(address _beneficiary, uint256 _amount) public payable {
+        uint256 tokenAmountWei = _amount;
+
+        _processPurchase(_beneficiary, tokenAmountWei);
+        TokenPurchase(msg.sender, _beneficiary, 0, tokenAmountWei);
+
+    }
 }

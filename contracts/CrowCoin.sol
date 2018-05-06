@@ -13,4 +13,6 @@ contract CrowCoin is MintableToken {
         totalSupply_ = INITIAL_SUPPLY;
         balances[msg.sender] = INITIAL_SUPPLY;
     }
+
+    
 }
